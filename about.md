@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Robora Lab
 permalink: /about/
 ---
 
