@@ -1479,3 +1479,12 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+
+.cover-image img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 2rem;
+  border-radius: 6px;
+}

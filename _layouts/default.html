@@ -1,12 +1,24 @@
+<!-- _layouts/default.html -->
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
-<body>
+  {% include head.html %}
+  <body>
+    {% include header.html %} <!-- Optional: top nav bar -->
 
-  <div class="wrapper">
-    {{ content }}
-  </div>
-  
-  {% include analytics.html %}
-</body>
+    {% if page.layout == "home" %}
+    <div class="cover-image">
+      <img src="{{ site.baseurl }}/assets/img/robora.png" alt="UAV-USV Cover Image">
+    </div>
+    <div class="home-intro">
+      <h1>UAV-USV Landing Project</h1>
+      <p>Welcome. We explore autonomous landing of UAVs on moving uncrewed surface vehicles using control and learning-based methods.</p>
+    </div>
+    {% endif %}
+
+    <div class="wrapper">
+      {{ content }}
+    </div>
+
+    {% include analytics.html %}
+  </body>
 </html>
