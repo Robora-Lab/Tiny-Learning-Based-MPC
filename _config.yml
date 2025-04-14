@@ -1,7 +1,3 @@
 remote_theme: jekyll/minima
 title: UAV-USV Landing
 description: A short description of your project
-
-navigation:
-  - title: Robora Lab2
-    url: https://roboralab.com/
