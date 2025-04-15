@@ -29,7 +29,7 @@ In these strategies we include optimization costs that weigh position, attitude,
 <div style="display: flex; justify-content: center; margin: 30px 0;">
   <figure style="text-align: center; width: 60%; margin: 0 auto;">
     <img src="assets/f7.png" alt="Figure 1" style="width: 100%; border-radius: 8px;">
-    <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+    <figcaption style="width: 90%; margin: 8px auto 0 auto; font-style: italic; color: #555;">
       Two multirotor paths using two different MPC strategies. On the left the "Track Position" strategy guides the multirotor to the center of the platform where it lands with a significant rotational error. On the right the "Combination" strategy reduces the rotational error but introduces positional error as the multirotor translates to match the rotation of the platform.
     </figcaption>
   </figure>
@@ -37,7 +37,7 @@ In these strategies we include optimization costs that weigh position, attitude,
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
 <figure style="flex: 1; min-width: 250px; text-align: center;">
   <img src="assets/f8.png" alt="Figure 2" style="width: 100%; border-radius: 8px;">
-  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+  <figcaption style="width: 90%; margin: 8px auto 0 auto; font-style: italic; color: #555;">
     Experimental landing success rates of the three MPC strategies. "Track Position" (left), "Match Rotation" (center), "Combination" (right).
   </figcaption>
 </figure>
