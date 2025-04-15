@@ -18,6 +18,33 @@ Operating in unknown and variable marine conditions, USVs are subject to complex
 
 While the aforementioned work considers harsh waves and resolves two key limitations of the initial solution, we still assume that there is a local region with calm waves that can be reached by both vehicles to then perform a safe landing. In practical scenarios, spatial-temporal assumptions are not realistic if an emergency landing is necessary or if time and resources are constrained. Recognizing that robust multirotor landing on a USV requires safe landing in waves of varying severity, we benchmark the robustness of three different quadratic MPC strategies for landing on the tilting testbed under various frequency and amplitude conditions. In these strategies we include optimization costs that weigh position, attitude, and altitude errors between the multirotor and the platform. Though all strategies successfully land in low-frequency, low-amplitude conditions, they have low success in the higher-amplitude conditions. In this work, we conclude that quadratic MPC cost is not robust to the range of frequencies and amplitudes required for landing in waves.
 
+{% raw %}
+<!-- Top Row: Image + Video Side by Side -->
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-bottom: 30px; margin-top: 30px;">
+
+  <!-- Figure 1 Image -->
+  <figure style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="assets/f7.png" alt="Figure 1" style="width: 100%; max-width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+      Block diagram of our proposed distributed MPC.
+    </figcaption>
+  </figure>
+
+</div>
+
+<!-- Second Row: 3 Figure 1 Images Side-by-Side -->
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+
+<figure style="flex: 1; min-width: 250px; text-align: center;">
+  <img src="assets/f8.png" alt="Figure 2" style="width: 100%; border-radius: 8px;">
+  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+    Custom tilting platform for ground vehicles.
+  </figcaption>
+</figure>
+
+</div>
+{% endraw %}
+
 ---
 ### A Time and Place to Land: Online Learning-Based Distributed MPC for Multirotor Landing on Surface Vessel in Waves [Summer 2024]
 ##### Accepted as a contributing paper at the 2025 International Conference on Unmanned Aircraft Systems (ICUAS). Check out the paper [here](https://arxiv.org/abs/2410.21674)!
