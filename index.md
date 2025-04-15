@@ -59,7 +59,7 @@ We perform safe autonomous landing in simulation using a distributed model predi
 </div>
 
 <!-- Second Row: 3 Figure 1 Images Side-by-Side -->
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
 
   <figure style="flex: 1; min-width: 250px; text-align: center;">
     <img src="assets/f2_1.png" alt="Image A" style="width: 100%; border-radius: 8px;">
