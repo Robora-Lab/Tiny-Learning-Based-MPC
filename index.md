@@ -20,10 +20,10 @@ While the aforementioned work considers harsh waves and resolves two key limitat
 
 {% raw %}
 <!-- Top Row: Image + Video Side by Side -->
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-bottom: 30px; margin-top: 30px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 30px; margin-top: 30px;">
 
-  <!-- Figure 1 Image -->
-  <figure style="flex: 1; min-width: 300px; text-align: center;">
+  <!-- Centered Figure -->
+  <figure style="text-align: center;">
     <img src="assets/f7.png" alt="Figure 1" style="width: 75%; max-width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
       Block diagram of our proposed distributed MPC.
