@@ -62,21 +62,21 @@ We perform safe autonomous landing in simulation using a distributed model predi
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
 
   <figure style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="/assets/f1.png" alt="Image A" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/f2.png" alt="Image A" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
       Figure 3a: Sample Output A
     </figcaption>
   </figure>
 
   <figure style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="/assets/f1.png" alt="Image B" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/f3.png" alt="Image B" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
       Figure 3b: Sample Output B
     </figcaption>
   </figure>
 
   <figure style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="/assets/f1.png" alt="Image C" style="width: 100%; border-radius: 8px;">
+    <img src="/assets/f4.png" alt="Image C" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
       Figure 3c: Sample Output C
     </figcaption>
