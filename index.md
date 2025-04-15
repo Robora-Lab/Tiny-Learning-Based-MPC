@@ -30,23 +30,14 @@ Upon completion of the previous work, we addressed two limitations of our prior 
 We perform safe autonomous landing in simulation using a distributed model predictive control (MPC) scheme. Our proposed architecture combines standard tracking MPCs for the multirotor and USV and augments them with additional artificial goal locations. These artificial goals enable the vehicles to coordinate without prior guidance. Each vehicle solves an individual optimization problem for both the artificial goal and an input that tracks it but only communicates the former to the other vehicle. To account for harsh waters our distributed MPC integrates a spatial-temporal wave model in the cost function encouraging the agents to converge to calmer waters. The wave model maps the location and time to the tilt of the USV. We show in simulation how our approach can simultaneously coordinate in real-time both a safe landing location and execute the landing task for a multirotor on a USV under wave conditions.
 
 {% raw %}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nBaHKCH9xOY" frameborder="0" allowfullscreen></iframe>
-{% endraw %}
-
-<figure style="text-align: center;">
-  <img src="assets/f1.png" alt="Image 1" style="width: 45%; border-radius: 8px; display: block; margin: 0 auto;">
-  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-    Figure 1: This is a caption describing the image.
-  </figcaption>
-</figure>
-
-<div style="display: flex; gap: 20px; justify-content: center;">
-
-  <img src="assets/f1.png" alt="Image 1" style="width: 45%; border-radius: 8px;">
-
-  <img src="assets/f1.png" alt="Image 2" style="width: 45%; border-radius: 8px;">
-
+<div style="text-align: center;">
+  <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/nBaHKCH9xOY"
+          frameborder="0"
+          allowfullscreen>
+  </iframe>
 </div>
+{% endraw %}
 
 ---
 ### References
