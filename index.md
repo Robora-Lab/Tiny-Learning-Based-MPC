@@ -3,8 +3,8 @@ layout: post
 title: "UAV-USV Landing"
 author: Jess Stephenson, Melissa Greeff, William S. Stewart, Nathan T. Duncan
 ---
-
 Welcome to the UAV-USV Landing project! This page covers the progress made on this project to date by members of [Robora Lab](https://roboralab.com/).
+
 ---
 
 ### Background
