@@ -32,13 +32,13 @@ We perform safe autonomous landing in simulation using a distributed model predi
 
 {% raw %}
 <!-- Top Row: Image + Video Side by Side -->
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-bottom: 50px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-bottom: 50px;margin-top: 50px;">
 
   <!-- Figure 1 Image -->
   <figure style="flex: 1; min-width: 300px; text-align: center;">
     <img src="assets/f1.png" alt="Figure 1" style="width: 100%; max-width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-      Figure 1: Multirotor Landing Visualization
+      Block diagram of our proposed distributed model predictive control.
     </figcaption>
   </figure>
 
@@ -52,7 +52,7 @@ We perform safe autonomous landing in simulation using a distributed model predi
       </iframe>
     </div>
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-      Figure 2: Demo Video of Landing
+      Recording of ICUAS presentation materials.
     </figcaption>
   </figure>
 
@@ -64,21 +64,21 @@ We perform safe autonomous landing in simulation using a distributed model predi
   <figure style="flex: 1; min-width: 250px; text-align: center;">
     <img src="assets/f2.png" alt="Image A" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-      Figure 3a: Sample Output A
+      "Cooperative" Strategy.
     </figcaption>
   </figure>
 
   <figure style="flex: 1; min-width: 250px; text-align: center;">
     <img src="assets/f3.png" alt="Image B" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-      Figure 3b: Sample Output B
+      "Calm" Strategy.
     </figcaption>
   </figure>
 
   <figure style="flex: 1; min-width: 250px; text-align: center;">
     <img src="assets/f4.png" alt="Image C" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-      Figure 3c: Sample Output C
+      "Ride the Wave" Strategy.
     </figcaption>
   </figure>
 
