@@ -36,9 +36,9 @@ We perform safe autonomous landing in simulation using a distributed model predi
 
   <!-- Figure 1 Image -->
   <figure style="flex: 1; min-width: 300px; text-align: center;">
-    <img src="assets/f1.png" alt="Figure 1" style="width: 100%; max-width: 100%; border-radius: 8px;">
+    <img src="assets/f1_1.png" alt="Figure 1" style="width: 100%; max-width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-      Block diagram of our proposed distributed model predictive control.
+      Block diagram of our proposed distributed MPC.
     </figcaption>
   </figure>
 
@@ -62,7 +62,7 @@ We perform safe autonomous landing in simulation using a distributed model predi
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
 
   <figure style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="assets/f2.png" alt="Image A" style="width: 100%; border-radius: 8px;">
+    <img src="assets/f2_1.png" alt="Image A" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
       "Cooperative" Strategy.
     </figcaption>
@@ -76,7 +76,7 @@ We perform safe autonomous landing in simulation using a distributed model predi
   </figure>
 
   <figure style="flex: 1; min-width: 250px; text-align: center;">
-    <img src="assets/f4.png" alt="Image C" style="width: 100%; border-radius: 8px;">
+    <img src="assets/f4_1.png" alt="Image C" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
       "Ride the Wave" Strategy.
     </figcaption>
