@@ -8,38 +8,39 @@ Welcome to the UAV-USV Landing project! This page covers the progress made on th
 ---
 
 ### Background
-Autonomous teams of multirotors and uncrewed surface vessels (USVs) are invaluable to challenging maritime applications, including remote monitoring, search-and-rescue, and surveillance [1], [2], [3]. After deployment in a remote setting, the functional life of the system is ultimately limited by the battery-life of the multirotor. The research that I continue to investigate is the ability to autonomously land a multirotor on a USV for recharging. We address this problem with safe control algorithms and apply control schemes in simulation, testbed validation, and real-world experiments.
+Autonomous teams of multirotors and uncrewed surface vessels (USVs) are invaluable to challenging maritime applications, including remote monitoring, search-and-rescue, and surveillance [1], [2], [3]. After deployment in a remote setting, the functional life of the system is ultimately limited by the battery-life of the multirotor. The research that we continue to investigate in this project is the ability to autonomously land a multirotor on a USV for recharging. We address this problem with safe control algorithms and apply control schemes in simulation, testbed validation, and real-world experiments.
+
 Operating in unknown and variable marine conditions, USVs are subject to complex wave-induced motions that include effects on pitch, roll, yaw, sway, surge, and heave [4]. To prevent damage to the multirotor due to severe motion in these degrees of freedom, it must perform a safe and controlled landing [5]. In a robust landing solution, we must consider the variability of the amplitude and frequency of waves due to changing meteorological conditions. We leverage the Great Lakes Coastal Forecasting System to define the range of waves in which our system should succeed.
+
+Contributions of the project are listed below from newest to oldest.
 
 ---
 
 ### Benchmarking Model Predictive Control Strategies for Multirotor Landing on a Dynamically Tilting Platform [Winter 2025]
 ##### Accepted to the workshop '25 Years of Aerial Robotics: Challenges and Opportunities' hosted at the 2025 International Conference on Robotics and Automation (ICRA)
 
-While the aforementioned work considers harsh waves and resolves two key limitations of the initial solution, we still assume that there is a local region with calm waves that can be reached by both vehicles to then perform a safe landing. In practical scenarios, spatial-temporal assumptions are not realistic if an emergency landing is necessary or if time and resources are constrained. Recognizing that robust multirotor landing on a USV requires safe landing in waves of varying severity, we benchmark the robustness of three different quadratic MPC strategies for landing on the tilting testbed under various frequency and amplitude conditions. In these strategies we include optimization costs that weigh position, attitude, and altitude errors between the multirotor and the platform. Though all strategies successfully land in low-frequency, low-amplitude conditions, they have low success in the higher-amplitude conditions. In this work, we conclude that quadratic MPC cost is not robust to the range of frequencies and amplitudes required for landing in waves.
+In prior work, we assume that there is a local region with calm waves that can be reached by both vehicles to then perform a safe landing. In practical scenarios, spatial-temporal assumptions are not realistic if an emergency landing is necessary or if time and resources are constrained. Recognizing that robust multirotor landing on a USV requires safe landing in waves of varying severity, we benchmark the robustness of three different quadratic MPC strategies for landing on the tilting testbed under various frequency and amplitude conditions.
+
+The three strategies are **"Track Position"**, **"Match Rotation"**, and **"Combination"**.
+
+In these strategies we include optimization costs that weigh position, attitude, and altitude errors between the multirotor and the platform. Though all strategies successfully land in low-frequency, low-amplitude conditions, they have low success in the higher-amplitude conditions. In this work, we conclude that quadratic MPC cost is not robust to the range of frequencies and amplitudes required for landing in waves.
 
 {% raw %}
 <div style="display: flex; justify-content: center; margin: 30px 0;">
-
   <figure style="text-align: center; width: 60%; margin: 0 auto;">
     <img src="assets/f7.png" alt="Figure 1" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-      Block diagram of our proposed distributed MPC.
+      Two multirotor paths using two different MPC strategies. On the left the "Track Position" strategy guides the multirotor to the center of the platform where it lands with a significant rotational error. On the right the "Combination" strategy reduces the rotational error but introduces positional error as the multirotor translates to match the rotation of the platform.
     </figcaption>
   </figure>
-
 </div>
-
-<!-- Second Row: 3 Figure 1 Images Side-by-Side -->
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-
 <figure style="flex: 1; min-width: 250px; text-align: center;">
   <img src="assets/f8.png" alt="Figure 2" style="width: 100%; border-radius: 8px;">
   <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-    Custom tilting platform for ground vehicles.
+    Experimental landing success rates of the three MPC strategies. "Track Position" (left), "Match Rotation" (center), "Combination" (right).
   </figcaption>
 </figure>
-
 </div>
 {% endraw %}
 
