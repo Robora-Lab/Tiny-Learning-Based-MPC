@@ -19,7 +19,7 @@ Contributions of the project are listed below from newest to oldest.
 ### Benchmarking Model Predictive Control Strategies for Multirotor Landing on a Dynamically Tilting Platform [Winter 2025]
 ##### Accepted to the workshop '25 Years of Aerial Robotics: Challenges and Opportunities' hosted at the 2025 International Conference on Robotics and Automation (ICRA)
 
-In prior work, we assume that there is a local region with calm waves that can be reached by both vehicles to then perform a safe landing. In practical scenarios, spatial-temporal assumptions are not realistic if an emergency landing is necessary or if time and resources are constrained. Recognizing that robust multirotor landing on a USV requires safe landing in waves of varying severity, we benchmark the robustness of three different quadratic MPC strategies for landing on the tilting testbed under various frequency and amplitude conditions.
+In prior work, we assume that there is a local region with calm waves that can be reached by both vehicles to then perform a safe landing. In practical scenarios, spatial-temporal assumptions are not realistic if an emergency landing is necessary or if time and resources are constrained. Recognizing that robust multirotor landing on a USV requires safe landing in waves of varying severity, we benchmark the robustness of three different quadratic MPC strategies for landing on the tilting testbed under various frequency (0.5-0.95 Hz) and amplitude (0.1-0.4 rad)conditions.
 
 The three strategies are **"Track Position"**, **"Match Rotation"**, and **"Combination"**.
 
@@ -29,7 +29,7 @@ In these strategies we include optimization costs that weigh position, attitude,
 <div style="display: flex; justify-content: center; margin: 30px 0;">
   <figure style="text-align: center; width: 60%; margin: 0 auto;">
     <img src="assets/f7.png" alt="Figure 1" style="width: 100%; border-radius: 8px;">
-    <figcaption style="width: 90%; margin: 8px auto 0 auto; font-style: italic; color: #555;">
+    <figcaption style="width: 120%; margin: 8px auto 0 auto; font-style: italic; color: #555;">
       Two multirotor paths using two different MPC strategies. On the left the "Track Position" strategy guides the multirotor to the center of the platform where it lands with a significant rotational error. On the right the "Combination" strategy reduces the rotational error but introduces positional error as the multirotor translates to match the rotation of the platform.
     </figcaption>
   </figure>
