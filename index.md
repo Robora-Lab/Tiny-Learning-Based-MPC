@@ -19,20 +19,18 @@ While the aforementioned work considers harsh waves and resolves two key limitat
 
 ---
 ### A Time and Place to Land: Online Learning-Based Distributed MPC for Multirotor Landing on Surface Vessel in Waves [Summer 2024]
-##### Accepted as a contributing paper at the 2025 International Conference on Unmanned Aircraft Systems (ICUAS)
-##### Check out the paper [here](https://arxiv.org/abs/2410.21674)!
+##### Accepted as a contributing paper at the 2025 International Conference on Unmanned Aircraft Systems (ICUAS). Check out the paper [here](https://arxiv.org/abs/2410.21674)!
 Upon completion of the previous work, we addressed two limitations of our prior solution. The assumption that a spatial-temporal wave model was perfectly known is not reasonable for practical landing scenarios. In this work we learn the spatial-temporal local wave model from data as a Gaussian Process (GP). The mean and uncertainty quantification from the GP regression are incorporated into our previous distributed MPC framework to enable safer landings in uncertain wave conditions. Another limitation of our prior solution is that it was validated only in simulation. Due to the cost of surface vessels and lack of suitable geographic testing locations, many UAV-USV cooperative landing solutions are similarly bound to simulation. To address this limitation, we built a low-cost testbed platform mounted on an unmanned ground vehicle to mimic the spatial-temporal tilting motion of a USV in waves. Using a Bitcraze Crazyflie 2.1 UAV, and a ClearPath Robotics Husky mounted with our tilting platform, we performed substantial experimental validation of our proposed framework in harsh wave conditions. Our proposed framework achieved a 53% landing success rate improvement over an approach that neglects spatial-temporal tilt motion.
 
 ---
 ### Distributed Model Predictive Control for Cooperative Multirotor Landing on Uncrewed Surface Vessel in Waves [Winter 2024]
-##### Accepted as a contributing paper at the 2024 International Conference on Unmanned Aircraft Systems (ICUAS)
-##### Check out the paper [here](https://ieeexplore.ieee.org/document/10557042)!
+##### Accepted as a contributing paper at the 2024 International Conference on Unmanned Aircraft Systems (ICUAS). Check out the paper [here](https://ieeexplore.ieee.org/document/10557042)!
 We perform safe autonomous landing in simulation using a distributed model predictive control (MPC) scheme. Our proposed architecture combines standard tracking MPCs for the multirotor and USV and augments them with additional artificial goal locations. These artificial goals enable the vehicles to coordinate without prior guidance. Each vehicle solves an individual optimization problem for both the artificial goal and an input that tracks it but only communicates the former to the other vehicle. To account for harsh waters our distributed MPC integrates a spatial-temporal wave model in the cost function encouraging the agents to converge to calmer waters. The wave model maps the location and time to the tilt of the USV. We show in simulation how our approach can simultaneously coordinate in real-time both a safe landing location and execute the landing task for a multirotor on a USV under wave conditions.
 
 
 {% raw %}
 <!-- Top Row: Image + Video Side by Side -->
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-bottom: 50px;margin-top: 50px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-bottom: 30px; margin-top: 30px;">
 
   <!-- Figure 1 Image -->
   <figure style="flex: 1; min-width: 300px; text-align: center;">
