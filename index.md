@@ -19,12 +19,10 @@ Operating in unknown and variable marine conditions, USVs are subject to complex
 While the aforementioned work considers harsh waves and resolves two key limitations of the initial solution, we still assume that there is a local region with calm waves that can be reached by both vehicles to then perform a safe landing. In practical scenarios, spatial-temporal assumptions are not realistic if an emergency landing is necessary or if time and resources are constrained. Recognizing that robust multirotor landing on a USV requires safe landing in waves of varying severity, we benchmark the robustness of three different quadratic MPC strategies for landing on the tilting testbed under various frequency and amplitude conditions. In these strategies we include optimization costs that weigh position, attitude, and altitude errors between the multirotor and the platform. Though all strategies successfully land in low-frequency, low-amplitude conditions, they have low success in the higher-amplitude conditions. In this work, we conclude that quadratic MPC cost is not robust to the range of frequencies and amplitudes required for landing in waves.
 
 {% raw %}
-<!-- Top Row: Image + Video Side by Side -->
-<div style="display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 30px; margin-top: 30px;">
+<div style="display: flex; justify-content: center; margin: 30px 0;">
 
-  <!-- Centered Figure -->
-  <figure style="text-align: center;">
-    <img src="assets/f7.png" alt="Figure 1" style="width: 55%; max-width: 100%; border-radius: 8px;">
+  <figure style="text-align: center; width: 60%; margin: 0 auto;">
+    <img src="assets/f7.png" alt="Figure 1" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
       Block diagram of our proposed distributed MPC.
     </figcaption>
