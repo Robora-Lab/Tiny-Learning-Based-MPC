@@ -34,7 +34,6 @@ In these strategies we include optimization costs that weigh position, attitude,
     </figcaption>
   </figure>
 </div>
-{% endraw %}
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
 <figure style="flex: 1; min-width: 250px; text-align: center;">
