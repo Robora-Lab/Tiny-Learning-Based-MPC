@@ -31,29 +31,59 @@ We perform safe autonomous landing in simulation using a distributed model predi
 
 
 {% raw %}
-<div style="text-align: center;">
-  <iframe width="560" height="315"
-          src="https://www.youtube.com/embed/nBaHKCH9xOY"
-          frameborder="0"
-          allowfullscreen>
-  </iframe>
+<!-- Top Row: Image + Video Side by Side -->
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-bottom: 50px;">
+
+  <!-- Figure 1 Image -->
+  <figure style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="/assets/f1.png" alt="Figure 1" style="width: 100%; max-width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+      Figure 1: Multirotor Landing Visualization
+    </figcaption>
+  </figure>
+
+  <!-- Embedded YouTube Video -->
+  <figure style="flex: 1; min-width: 300px; text-align: center;">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe src="https://www.youtube.com/embed/nBaHKCH9xOY"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+              frameborder="0"
+              allowfullscreen>
+      </iframe>
+    </div>
+    <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+      Figure 2: Demo Video of Landing
+    </figcaption>
+  </figure>
+
+</div>
+
+<!-- Second Row: 3 Figure 1 Images Side-by-Side -->
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
+
+  <figure style="flex: 1; min-width: 250px; text-align: center;">
+    <img src="/assets/f1.png" alt="Image A" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+      Figure 3a: Sample Output A
+    </figcaption>
+  </figure>
+
+  <figure style="flex: 1; min-width: 250px; text-align: center;">
+    <img src="/assets/f1.png" alt="Image B" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+      Figure 3b: Sample Output B
+    </figcaption>
+  </figure>
+
+  <figure style="flex: 1; min-width: 250px; text-align: center;">
+    <img src="/assets/f1.png" alt="Image C" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+      Figure 3c: Sample Output C
+    </figcaption>
+  </figure>
+
 </div>
 {% endraw %}
-
-
-<div style="display: flex; gap: 20px; justify-content: center;">
-
-  <img src="assets/f1.png" alt="Image 1" style="width: 45%; border-radius: 8px;">
-    <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-    Figure 1: This is a caption describing the image.
-  </figcaption>
-
-  <img src="assets/f1.png" alt="Image 2" style="width: 45%; border-radius: 8px;">
-    <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-    Figure 1: This is a caption describing the image.
-  </figcaption>
-
-</div>
 
 ---
 ### References
