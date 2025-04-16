@@ -2,9 +2,6 @@ remote_theme: jekyll/minima
 title: UAV-USV Landing Project Page
 description: A short description of your project
 
-include:
-  - assets/css/custom.css
-
 navigation:
   - title: Robora Lab
     url: https://roboralab.com/index.html
