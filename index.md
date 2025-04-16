@@ -56,7 +56,7 @@ We addressed two limitations of our prior solution in this work. The assumption 
   <figure style="flex: 1; min-width: 300px; text-align: center;">
     <img src="assets/f6.png" alt="Figure 1" style="width: 100%; max-width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-      Tilt of the platform at landing in harsh wave conditions. Our proposed approach (blue) achieves a lower tilt at landing over the approach that neglects tilt.
+      Tilt of the platform at landing in harsh wave conditions. Our proposed approach (blue) achieves a lower tilt at landing over the approach that neglects tilt (red).
     </figcaption>
   </figure>
 
