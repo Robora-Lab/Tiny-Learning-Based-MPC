@@ -120,7 +120,7 @@ We consider three strategies **"Cooperative"**, **"Calm"**, and **"Ride the Wave
       </iframe>
     </div>
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-      Recording of ICUAS presentation materials.
+      Recording of ICUAS 2024 presentation materials.
     </figcaption>
   </figure>
 
