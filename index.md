@@ -58,7 +58,7 @@ We addressed two limitations of our prior solution in this work. The assumption 
   <figure style="flex: 1; min-width: 300px; text-align: center;">
     <img src="assets/f6.png" alt="Figure 1" style="width: 100%; max-width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-      Block diagram of our proposed distributed MPC.
+      Tilt of the platform at landing in harsh wave conditions. Our proposed approach (blue) achieves a lower tilt at landing over the approach that neglects tilt.
     </figcaption>
   </figure>
 
@@ -84,7 +84,7 @@ We addressed two limitations of our prior solution in this work. The assumption 
 <figure style="flex: 1; min-width: 250px; text-align: center;">
   <img src="assets/f5.png" alt="Figure 2" style="width: 100%; border-radius: 8px;">
   <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-    Custom tilting platform for ground vehicles.
+    Custom tilting platform for ground vehicles. The platform mimics the spatial-temporal tilting motion of a USV in waves.
   </figcaption>
 </figure>
 
