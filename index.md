@@ -112,7 +112,7 @@ absolute tracking error.
 
   <!-- Figure 1 Image -->
   <figure style="flex: 1; min-width: 300px; text-align: center;">
-    <img src="assets/Block_SOCP.pdf" alt="Figure 1" style="width: 100%; max-width: 100%; border-radius: 8px;">
+    <img src="assets/Block_SOCP.png" alt="Figure 1" style="width: 100%; max-width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
       Block diagram of our proposed learning-based MPC architecture.
     </figcaption>
