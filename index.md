@@ -14,8 +14,7 @@ Operating in unknown and variable marine conditions, USVs are subject to complex
 Contributions of the project are listed below from newest to oldest.
 
 ---
-### <span style="color: #4568ff;">Tiny Learning-Based MPC for Multirotors: Solver-Aware Learning for
-Efficient Embedded Predictive Control </span>[Summer 2024]
+### <span style="color: #4568ff;">Tiny Learning-Based MPC for Multirotors: Solver-Aware Learning for Efficient Embedded Predictive Control </span>[Summer 2024]
 ##### Submmited to RA-L. Check out the paper [here](https://arxiv.org/pdf/2410.23634)!
 Tiny aerial robots show promise for applications
 like environmental monitoring and search-and-rescue but face
@@ -78,11 +77,32 @@ MPC on a tiny multirotor (53 g).
 {% endraw %}
 
 ---
-### <span style="color: #4568ff;">Distributed Model Predictive Control for Cooperative Multirotor Landing on Uncrewed Surface Vessel in Waves </span>[Winter 2024]
-##### Accepted as a contributing paper at the 2024 International Conference on Unmanned Aircraft Systems (ICUAS). Check out the paper [here](https://ieeexplore.ieee.org/document/10557042)!
-We perform safe autonomous landing in simulation using a distributed model predictive control (MPC) scheme. Our proposed architecture combines standard tracking MPCs for the multirotor and USV and augments them with additional artificial goal locations. These artificial goals enable the vehicles to coordinate without prior guidance. Each vehicle solves an individual optimization problem for both the artificial goal and an input that tracks it but only communicates the former to the other vehicle. To account for harsh waters our distributed MPC integrates a spatial-temporal wave model in the cost function encouraging the agents to converge to calmer waters. The wave model maps the location and time to the tilt of the USV. We show in simulation how our approach can simultaneously coordinate in real-time both a safe landing location and execute the landing task for a multirotor on a USV under wave conditions.
-
-We consider three strategies **"Cooperative"**, **"Calm"**, and **"Ride the Wave"**. The "Cooperative" strategy does not include a tilt cost, the "Calm" strategy includes a long-term spatial tilt cost, and the "Ride the Wave" strategy includes a short-term spatial tilt cost.
+### <span style="color: #4568ff;">A Computationally Efficient Learning-Based Model Predictive Control for Multirotors under Aerodynamic Disturbances </span>[Winter 2024]
+##### Accepted as a contributing paper at the 2024 International Conference on Unmanned Aircraft Systems (ICUAS). Check out the paper [here](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10557089)!
+Neglecting complex aerodynamic effects hinders
+high-speed yet high-precision multirotor autonomy. In this
+paper, we present a computationally efficient learning-based
+model predictive controller that simultaneously optimizes a
+trajectory that can be tracked within the physical limits
+(on thrust and orientation) of the multirotor system despite
+unknown aerodynamic forces and adapts the control input.
+To do this, we leverage the well-known differential flatness
+property of multirotors, which allows us to transform their
+nonlinear dynamics into a linear model. The main limitation of
+current flatness-based planning and control approaches is that
+they often neglect dynamic feasibility. This is because these
+constraints are nonlinear as a result of the mapping between
+the input, i.e., multirotor thrust, and the flat state. In our
+approach, we learn a novel representation of the drag forces by
+learning the mapping from the flat state to the multirotor thrust
+vector (in a world frame) as a Gaussian Process (GP). Our
+proposed approach leverages the properties of GPs to develop
+a convex optimal controller that can be iteratively solved as a
+second-order cone program (SOCP). In simulation experiments,
+our proposed approach outperforms related model predictive
+controllers that do not account for aerodynamic effects on
+trajectory feasibility, leading to a reduction of up to 55% in
+absolute tracking error.
 
 {% raw %}
 <!-- Top Row: Image + Video Side by Side -->
@@ -142,11 +162,3 @@ We consider three strategies **"Cooperative"**, **"Calm"**, and **"Ride the Wave
 ---
 ### References
 [1]	Y. Wang, W. Liu, J. Liu, and C. Sun, “Cooperative USV–UAV marine search and rescue with visual navigation and reinforcement learning-based control,” ISA Trans., vol. 137, pp. 222–235, 2023.
-
-[2]	J. Wu, R. Li, J. Li, M. Zou, and Z. Huang, “Cooperative unmanned surface vehicles and unmanned aerial vehicles platform as a tool for coastal monitoring activities,” Ocean Coast. Manag., vol. 232, p. 106421, 2023.
-
-[3]	A. Vasilijevic et al., “Heterogeneous robotic system for underwater oil spill survey,” in OCEANS 2015 - Genova, pp. 1–7, 2015.
-
-[4]	T. I. Fossen, Handbook of marine craft hydrodynamics and motion control. John Wiley & Sons, 2011.
-
-[5]	K. Xia, M. Shin, W. Chung, M. Kim, S. Lee, and H. Son, “Landing a quadrotor UAV on a moving platform with sway motion using robust control,” Control Eng. Pract., vol. 128, p. 105288, 2022.
