@@ -53,15 +53,40 @@ MPC on a tiny multirotor (53 g).
   </figure>
 </div>
 
-<!-- Second Row: 3 Figure 1 Images Side-by-Side -->
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+<!-- Three Videos Side-by-Side -->
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
 
-<figure style="flex: 1; min-width: 250px; text-align: center;">
-  <img src="assets/f5.png" alt="Figure 2" style="width: 100%; border-radius: 8px;">
-  <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-    Custom tilting platform for ground vehicles. The platform mimics the spatial-temporal tilting motion of a USV in waves.
-  </figcaption>
-</figure>
+  <div style="flex: 1; min-width: 250px; text-align: center;">
+    <video controls style="width: 100%; border-radius: 8px;">
+      <source src="assets/Tiny L MPC.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p style="margin-top: 8px; font-style: italic; color: #555;">
+      Tiy L MPC
+    </p>
+  </div>
+
+  <div style="flex: 1; min-width: 250px; text-align: center;">
+    <video controls style="width: 100%; border-radius: 8px;">
+      <source src="assets/Tiny FB MPC.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p style="margin-top: 8px; font-style: italic; color: #555;">
+      Tiny FB MPC.mp4
+    </p>
+  </div>
+
+  <div style="flex: 1; min-width: 250px; text-align: center;">
+    <video controls style="width: 100%; border-radius: 8px;">
+      <source src="assets/Tiny LB MPC.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p style="margin-top: 8px; font-style: italic; color: #555;">
+      Tiny LB MPC.mp4
+    </p>
+  </div>
+
+</div>
 
 </div>
 {% endraw %}
