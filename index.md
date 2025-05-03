@@ -116,7 +116,7 @@ absolute tracking error.
       Your browser does not support the video tag.
     </video>
     <p style="margin-top: 8px; font-style: italic; color: #555;">
-      Narrow Strategy Animation
+      SOCP No Learning
     </p>
   </div>
 
@@ -126,7 +126,7 @@ absolute tracking error.
       Your browser does not support the video tag.
     </video>
     <p style="margin-top: 8px; font-style: italic; color: #555;">
-      Large Strategy Animation
+      SOCP Learning
     </p>
   </div>
 
