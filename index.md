@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Tiny Learning-Based MPC for Multirotors"
-author: Your Name
+author: Babak Akbari, Justin Frank, Melissa Greeff
 ---
 
-We present a set of tools and algorithms for enabling **real-time, learning-based model predictive control (MPC)** on **tiny multirotors** under significant onboard computational constraints and aerodynamic disturbances.
+
+We present a **computationaly efficient learning-based algorithm** for **tiny multirotors** under aerodynamic disturbances.
 
 This project is based on two recent papers:
 
