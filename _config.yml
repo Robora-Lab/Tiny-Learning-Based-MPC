@@ -1,8 +1,8 @@
 remote_theme: jekyll/minima
-title: UAV-USV Landing Project Page
+title: Tiny-Learning-Based-MPC Project Page
 description:
 
-repository: robora-lab/uav-usv-landing
+repository: robora-lab/Tiny-Learning-Based-MPC
 
 navigation:
   - title: Robora Lab

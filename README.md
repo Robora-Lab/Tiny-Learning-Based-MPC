@@ -1,2 +1,2 @@
-Github.io project page for UAV-USV Landing.
-https://robora-lab.github.io/uav-usv-landing/
+Github.io project page for Tiny-Learning-Based-MPC.
+https://robora-lab.github.io/Tiny-Learning-Based-MPC/
