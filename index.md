@@ -43,26 +43,14 @@ MPC on a tiny multirotor (53 g).
 
   <!-- Figure 1 Image -->
   <figure style="flex: 1; min-width: 300px; text-align: center;">
-    <img src="assets/f6.png" alt="Figure 1" style="width: 100%; max-width: 100%; border-radius: 8px;">
+    <img src="assets/rmse_boxplot.png" alt="Figure 1" style="width: 100%; max-width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-      Tilt of the platform at landing in harsh wave conditions. Our proposed approach (blue) achieves a lower tilt at landing over the approach that neglects tilt (red).
+      Comparison of RMSE (over 5 trials) for PID
+      (black) and three embedded predictive controllers: Tiny L MPC (red), Tiny
+      FB MPC (yellow), and our proposed Tiny LB MPC (blue) for L Shape,
+      Figure 8, Slanted Circle, and Figure S trajectories.
     </figcaption>
   </figure>
-
-  <!-- Embedded YouTube Video -->
-  <figure style="flex: 1; min-width: 300px; text-align: center;">
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe src="https://www.youtube.com/embed/g4cCmE9Rgxs"
-              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-              frameborder="0"
-              allowfullscreen>
-      </iframe>
-    </div>
-    <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-      Accompanying video.
-    </figcaption>
-  </figure>
-
 </div>
 
 <!-- Second Row: 3 Figure 1 Images Side-by-Side -->
@@ -143,7 +131,6 @@ absolute tracking error.
   </div>
 
 </div>
-
 {% endraw %}
 
 ---
