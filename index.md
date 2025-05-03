@@ -87,8 +87,6 @@ MPC on a tiny multirotor (53 g).
   </div>
 
 </div>
-
-</div>
 {% endraw %}
 
 ---
