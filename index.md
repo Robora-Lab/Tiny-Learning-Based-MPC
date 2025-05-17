@@ -72,7 +72,7 @@ MPC on a tiny multirotor (53 g).
       Your browser does not support the video tag.
     </video>
     <p style="margin-top: 8px; font-style: italic; color: #555;">
-      Tiny FB MPC.mp4
+      Tiny FB MPC
     </p>
   </div>
 
@@ -82,7 +82,7 @@ MPC on a tiny multirotor (53 g).
       Your browser does not support the video tag.
     </video>
     <p style="margin-top: 8px; font-style: italic; color: #555;">
-      Tiny LB MPC.mp4
+      Tiny LB MPC
     </p>
   </div>
 
